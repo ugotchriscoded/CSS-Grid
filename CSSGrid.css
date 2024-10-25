@@ -1,0 +1,59 @@
+h1{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.gridLayout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20px 20px 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20 px;
+}
+
+.box1{
+    border: 1px solid black;
+}
+
+.box2{
+
+    border: 1px solid black;
+}
+
+.box3{
+    border: 1px solid black;
+}
+
+.box4{
+    border: 1px solid black;
+}
+
+.box5{
+    border: 1px solid black;
+}
+
+.box6{
+    border: 1px solid black;
+}
+
+.box7{
+    border: 1px solid black;
+}
+
+.box8{
+    border: 1px solid black;
+}
+
+.box9{
+    border: 1px solid black;
+}
+
+.box10{
+    border: 1px solid black;
+}
