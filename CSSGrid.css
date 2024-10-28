@@ -1,27 +1,41 @@
-h1{
-    display:flex;
-    justify-content: center;
-    font-size: 40px;
-}
-
 body{
-    background-color: whitesmoke;
+    display:flex;
+    flex-flow: wrap;
+    flex-direction: column;
 }
 
-.gridLayout{
+header{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 20px 20px 20px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20 px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
 }
 
-.verticalImgs{
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 4 px;
+}
+
+.ShellVillage{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
     border: 1px solid black;
 
 }
 
-.smallImgs{
-    border: 1px solid black;
+p{
+   display: grid;
+   grid-column: 1;
+   text-align: center;
+   font-size: 40px;
+   font-style: italic;
+   color:skyblue
+}
+
+.HelloKitty{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
 }
