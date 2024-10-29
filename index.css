@@ -18,7 +18,7 @@ header{
     row-gap: 4 px;
 }
 
-.ShellVillage{
+.sghellVillage{
     display: grid;
     grid-column: 2;
     grid-row: 1;
@@ -38,7 +38,7 @@ p{
    height: 200px;
 }
 
-.CoconutSorbet{
+.coconutSorbet{
     display: grid;
     grid-column: 1;
     grid-row: 1;
@@ -47,7 +47,7 @@ p{
     height: 200px;
 }
 
-.HelloKitty{
+.helloKitty{
     display: grid;
     grid-column: 2;
     grid-row: 1;
@@ -56,7 +56,7 @@ p{
     height: 200px;
 }
 
-.Bikes{
+.bikes{
     display: grid;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -67,7 +67,7 @@ p{
     height: 448px;
 }
 
-.Phone{
+.phone{
     display: grid;
     grid-column: 5;
     grid-row: 1;
@@ -76,7 +76,7 @@ p{
     height: 200px;
 }
 
-.StarfishClip{
+.starfishClip{
     display: grid;
     grid-column: 5;
     grid-row: 2;
@@ -85,7 +85,7 @@ p{
     height: 200px;
 }
 
-.Tuition{
+.tuition{
     display: grid;
     grid-column: 1;
     grid-row: 3;
@@ -94,7 +94,7 @@ p{
     height: 200px;
 }
 
-.SandDrawing{
+.sandDrawing{
     display: grid;
     grid-column: 2;
     grid-row: 3;
@@ -103,7 +103,7 @@ p{
     height: 200px;
 }
 
-.Dolphins{
+.dolphins{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -113,7 +113,7 @@ p{
     height: 200px;
 }
 
-.Bedroom{
+.bedroom{
     display: grid;
     grid-column-start: 3;
     grid-column-end: 5;
