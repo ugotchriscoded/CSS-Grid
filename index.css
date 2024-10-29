@@ -1,7 +1,6 @@
 body{
     display:flex;
-    flex-flow: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
     max-width: 1024px;
     max-height: 1440px;
 }
@@ -60,9 +59,9 @@ p{
 .Bikes{
     display: grid;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
     border: 1px solid black;
     width: 335px;
     height: 448px;
@@ -71,7 +70,7 @@ p{
 .Phone{
     display: grid;
     grid-column: 5;
-    grid-row: 2;
+    grid-row: 1;
     border: 1px solid black;
     width: 150px;
     height: 200px;
@@ -79,8 +78,8 @@ p{
 
 .StarfishClip{
     display: grid;
-    grid-column: 1;
-    grid-row: 3;
+    grid-column: 5;
+    grid-row: 2;
     border: 1px solid black;
     width: 150px;
     height: 200px;
@@ -97,8 +96,8 @@ p{
 
 .SandDrawing{
     display: grid;
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 2;
+    grid-row: 3;
     border: 1px solid black;
     width: 150px;
     height: 200px;
