@@ -1,7 +1,7 @@
 body{
     display:flex;
     flex-flow: column wrap;
-    max-width: 1024px;
+    max-width: 1020px;
     max-height: 1440px;
 }
 
@@ -9,9 +9,10 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
+    margin-bottom: 120px;
 }
 
-.main{
+main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
@@ -39,7 +40,6 @@ p{
 }
 
 .coconutSorbet{
-    display: grid;
     grid-column: 1;
     grid-row: 1;
     border: 1px solid black;
@@ -48,7 +48,6 @@ p{
 }
 
 .helloKitty{
-    display: grid;
     grid-column: 2;
     grid-row: 1;
     border: 1px solid black;
@@ -57,7 +56,6 @@ p{
 }
 
 .bikes{
-    display: grid;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
