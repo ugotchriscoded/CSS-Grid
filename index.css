@@ -1,8 +1,8 @@
 body{
-    display: flex;
-    flex-flow: wrap;
+    display:flex;
+    flex-flow:wrap;
     max-width: 775px;
-    max-height: 620px;
+    max-height:620px;
 }
 
 header{
@@ -12,7 +12,7 @@ header{
 }
 
 main{
-    display:grid;
+    display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 200px 200px 200px;
     column-gap: 5px;
@@ -25,24 +25,26 @@ main{
     width: 385px;
     height: 200px;
 }
-
+ 
 p{
-   grid-column: 1;
-   text-align: center;
-   font-size: 40px;
-   font-style: italic;
-   color:skyblue;
-   width: 385px;
-   height: 200px;
+    grid-column: 1;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color:skyblue;
+    width: 385px;
+    height: 200px;
 }
 
 .coconutSorbet{
+    grid-column: 1;
     grid-row: 1;
     width: 150px;
     height: 200px;
 }
 
 .helloKitty{
+    grid-column: 2;
     grid-row: 1;
     width: 150px;
     height: 200px;
@@ -97,7 +99,6 @@ p{
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row: 3;
-    max-width: 460px;
-    max-height: 200px;
+    width: 460px;
+    height: 200px;
 }
-
