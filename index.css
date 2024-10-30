@@ -1,123 +1,103 @@
 body{
-    display:flex;
-    flex-flow: column wrap;
-    max-width: 1020px;
-    max-height: 1440px;
+    display: flex;
+    flex-flow: wrap;
+    max-width: 775px;
+    max-height: 620px;
 }
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px;
-    margin-bottom: 120px;
+    grid-template-columns: 385px 385px;
+    grid-template-rows: 205px;
 }
 
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
     grid-template-rows: 200px 200px 200px;
-    row-gap: 4 px;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
 .shellVillage{
-    display: grid;
     grid-column: 2;
     grid-row: 1;
-    border: 1px solid black;
-    width: 420px;
+    width: 385px;
     height: 200px;
 }
 
 p{
-   display: grid;
    grid-column: 1;
    text-align: center;
    font-size: 40px;
    font-style: italic;
    color:skyblue;
-   width: 420px;
+   width: 385px;
    height: 200px;
 }
 
 .coconutSorbet{
-    grid-column: 1;
     grid-row: 1;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
 }
 
 .helloKitty{
-    grid-column: 2;
     grid-row: 1;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
 }
 
 .bikes{
     grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 2;
-    border: 1px solid black;
-    width: 335px;
-    height: 448px;
+    grid-row-end: 3;
+    width: 305px;
+    height: 405px;
 }
 
 .phone{
-    display: grid;
     grid-column: 5;
     grid-row: 1;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
 }
 
 .starfishClip{
-    display: grid;
     grid-column: 5;
     grid-row: 2;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
 }
 
 .floridaCarTuition{
-    display: grid;
     grid-column: 1;
     grid-row: 3;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
 }
 
 .sandDrawing{
-    display: grid;
     grid-column: 2;
     grid-row: 3;
-    border: 1px solid black;
     width: 150px;
     height: 200px;
 }
 
 .dolphins{
-    display: grid;
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    border: 1px solid black;
-    width: 335px;
+    grid-column-end: 3;
+    grid-row: 2;
+    width: 305px;
     height: 200px;
 }
 
 .bedroom{
-    display: grid;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row: 3;
-    border: 1px solid black;
-    max-width: 520px;
+    max-width: 460px;
     max-height: 200px;
 }
 
